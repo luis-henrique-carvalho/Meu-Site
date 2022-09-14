@@ -11,14 +11,7 @@ function App() {
   return (
     <Router>
       <NavBar />
-      <Container customClass="min-height" page="first-page">
-        <Routes>
-
-          <Route exact path="/home" element={<Home />}></Route>
-          <Route path="/sobre" element={<Sobre />}></Route>
-
-        </Routes>
-      </Container>
+      
       
       <Footer />
     </Router>
