@@ -27,6 +27,13 @@ header {
   background: var(--color-primary);
 }
 
+.logo {
+  width: 20rem;
+  margin: 0 auto;
+  
+  
+}
+
 .cta {
   margin-top: 2.5rem;
   display: flex;
