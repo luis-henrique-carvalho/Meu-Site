@@ -1,21 +1,24 @@
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Experience from "./components/Experience";
-import Footer from "./components/Footer";
+import About from "./components/about/About";
+import Contact from "./components/contact/Contact";
+import Experience from "./components/experience/Experience";
+import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 
-import NavBar from "./components/NavBar";
+import NavBar from "./components/nav/NavBar";
+import Portifolio from "./components/portifolio/Portifolio";
 
 function App() {
   return (
     <>
         <Header/>
-        <About />
-        <Contact />
+        <NavBar />
+        <About /> 
         <Experience />
+        <Portifolio />
+        <Contact />
         <Footer />
         
-        <NavBar />
+
     </>
       
     
