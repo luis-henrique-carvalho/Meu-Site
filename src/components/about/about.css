@@ -39,7 +39,7 @@ padding-top: 2rem;}
 }
 
 .about__card {
-  background-color: var(--color-primary);
+  background-color: var(--color-bg-variante);
   border: 1px solid transparent;
   border-radius: 1rem;
   padding: 2rem;
@@ -54,7 +54,7 @@ padding-top: 2rem;}
 }
 
 .about__icon {
-  color: var(--color-bg-variante);
+  color: var(--color-primary);
   font-size: 1.4rem;
   margin-bottom: 1rem;
 }
@@ -64,7 +64,7 @@ padding-top: 2rem;}
 }
 .about__card small {
   font-size: 0.7rem;
-  color: var(--color-bg-variante);
+  color: var(--color-primary);
 }
 
 .about_content p {
