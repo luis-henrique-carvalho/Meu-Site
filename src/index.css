@@ -10,7 +10,7 @@
 
 :root {
   --color-bg: #3C096C;
-  --color-bg-variante: #5C0292;
+  --color-bg-variante: #613dc1;
   --color-primary: #12d6df  
   ;
   --color-secundary: #f70fff;
@@ -61,7 +61,7 @@ section {
 section > h2,
 section > h5 {
   text-align: center;
-  color: var(--color-secundary);
+  color: var(--color-light);
 }
 
 section > h2 {
@@ -102,7 +102,7 @@ a:hover{
   border-color: transparent;
 }
 
-.btn .primary {
+.btn-primary {
   background-color: var(--color-primary);
   color: var(--color-bg);
 }
