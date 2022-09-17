@@ -20,11 +20,15 @@ header {
   bottom: 3rem;
 }
 
-.header__socials::after {
+/* .header__socials::after {
   content: "";
   width: 1px;
   height: 2rem;
   background: var(--color-primary);
+} */
+
+.email {
+  font-size: 1.3rem;
 }
 
 .logo {
@@ -51,14 +55,28 @@ header {
 }
 
 
-.scroll__down {
+a.scroll__down {
   position: absolute;
+  display: flex;
   right: -2.3rem;
   bottom: 5rem;
   transform: rotate(90deg);
-  font-weight: 200;
+  font-weight: 400;
   font-size: 0.9rem;
+  background: var(--color-primary);
+  padding: 0.2rem 0.5rem;
+  color: var(--color-bg);
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
 }
+
+a.scroll__down:hover {
+  background: transparent;
+  border: 1px solid var(--color-primary);
+  color: var(--color-primary);
+}
+
+
 
 @media screen and (max-width: 1024px) {
   .header {
@@ -72,7 +90,8 @@ header {
   }
 
   .header__socials,
-  .scroll__down {
+  .scroll__down,
+  a.scroll__down {
     display: none;
   }
 }

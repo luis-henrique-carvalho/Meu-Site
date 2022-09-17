@@ -1,11 +1,13 @@
 import React from "react";
 import Foto from "../../assets/foto3.jpg";
 import { FaAward } from "react-icons/fa";
-import { FiUsers } from "react-icons/fi";
+
 import { BiCodeBlock } from "react-icons/bi";
 import "./about.css";
 
 const about = () => {
+
+  
   return (
     <section id="about">
       <h5>Conheça</h5>
