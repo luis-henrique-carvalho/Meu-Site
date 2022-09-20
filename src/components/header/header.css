@@ -52,7 +52,7 @@ header {
   /*centraliza com 50 - a metade da largura*/
   left: calc(50% - 13rem);
   margin-top: 3rem;
-  overflow: hidden;
+  
   padding: 2rem 1.5rem 1.5rem 1.5rem;
 }
 
