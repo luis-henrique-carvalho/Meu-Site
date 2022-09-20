@@ -46,6 +46,9 @@
   margin-top: 6px;
   color: var(--color-primary);
 }
+h4 {
+  color: var(--color-bg);
+}
 
 
 /* ======= MEDIOS DEVICES ======== */

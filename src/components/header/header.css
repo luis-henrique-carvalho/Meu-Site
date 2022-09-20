@@ -9,7 +9,9 @@ header {
   height: 100%;
   position: relative;
 }
-
+.header__container h5 {
+  color: var(--color-bg-variante);
+}
 .header__socials {
   display: flex;
   flex-direction: column;

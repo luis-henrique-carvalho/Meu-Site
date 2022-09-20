@@ -29,6 +29,7 @@
 
 .portfolio__item h3 {
   margin:  1.2rem 0 0rem;
+  color: var(--color-bg);
 }
 
 .portfolio__item > small {

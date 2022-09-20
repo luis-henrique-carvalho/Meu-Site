@@ -25,19 +25,19 @@ const about = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experiencias</h5>
-              <small>-1 ano de Experiencia</small>
+              <small>1 ano de Experiencia</small>
             </article>
 
             <article className="about__card">
               <BiCodeBlock className="about__icon" />
               <h5>Tecnologias</h5>
-              <small>HTML, CSS, JAVASCRIPT, REACT</small>
+              <small>HTML, CSS, JAVASCRIPT, REACT, Bootstrap, Git</small>
             </article>
 
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Projetos</h5>
-              <small>Participação em alguns projetos</small>
+              <small>Participação em <br/> mais de 10 projetos</small>
             </article>
           </div>
           

@@ -5,7 +5,7 @@ export const CTA = () => {
   return (
     <div className='cta'>
       <a href={CV} download className='btn'>Dawnload CV</a>
-      <a href="" className='btn btn-primary'>Vamos conversar</a>
+      <a href="#contact" className='btn btn-primary'>Vamos conversar</a>
     </div>
   )
 }

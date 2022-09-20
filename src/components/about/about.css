@@ -61,6 +61,7 @@ padding-top: 2rem;}
 
 .about__card h5 {
   font-size: 0.95rem;
+  color:var(--color-bg);
 }
 .about__card small {
   font-size: 0.7rem;
@@ -69,7 +70,7 @@ padding-top: 2rem;}
 
 .about_content p {
   margin: 2rem 0 2.6rem;
-  color: var(--color-light);
+  color: var(--color-primary);
 }
 
 

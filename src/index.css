@@ -9,14 +9,14 @@
 
 
 :root {
-  --color-bg: #3C096C;
-  --color-bg-variante: #6137d4;
-  --color-primary: #12d6df  
+  --color-bg: #a7dff5;
+  --color-bg-variante: #457b9d;
+  --color-primary: #6a95b1  
   ;
   --color-secundary: #f70fff;
   --color-white: #FFFFFF;
   --color-black: #000000;
-  --color-light: #c2a8ffaf;
+  --color-light: #6fa9cfda;
 
   --transition: all 400ms ease;
 
@@ -28,6 +28,7 @@
 
 html {
   scroll-behavior: smooth;
+  
 }
 
 ::-webkit-scrollbar {
@@ -35,7 +36,10 @@ html {
 }
 
 body {
-  background: var(--color-bg);
+  background: url(./assets/bg.png);
+  background-size:cover;
+  
+  
   color: var(--color-white);
   line-height: 1.7;
 
@@ -80,7 +84,7 @@ a {
 }
 
 a:hover{
-  color: var(--color-white);
+  color: var(--color-bg-variante);
   
 }
 
@@ -97,8 +101,8 @@ a:hover{
 }
 
 .btn:hover {
-  background-color: var(--color-white);
-  color: var(--color-bg);
+  background-color: var(--color-bg);
+  color: var(--color-white);
   border-color: transparent;
 }
 
@@ -115,6 +119,9 @@ img {
 
 /* =============MEDIA QUERIES (MEDIUM DEVICES) =============*/
 @media screen and (max-width: 1024px) {
+  body {
+    /* background-size: 80%; */
+  }
   .container {
     width: var(--container-width-md);
   }

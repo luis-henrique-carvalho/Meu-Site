@@ -1,7 +1,7 @@
 import React from 'react'
 import { CTA } from './CTA'
 import './header.css'
-import ME from '../../assets/foto2.png'
+import ME from '../../assets/foto6.png'
 import HeaderSocial from './HeaderSocial'
 import Logo from '../../assets/logo.png'
 
