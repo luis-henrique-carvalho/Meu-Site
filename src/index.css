@@ -9,14 +9,14 @@
 
 
 :root {
-  --color-bg: #82b4c2;
+  --color-bg: #a0adb4;
   --color-bg-variante: #324B50;
   --color-primary: #6a95b1  
   ;
   --color-secundary: #f70fff;
   --color-white: #000000;
   --color-black: #000000;
-  --color-light: #7ab4c1e5;
+  --color-light: #4d818de5;
 
   --transition: all 400ms ease;
 
