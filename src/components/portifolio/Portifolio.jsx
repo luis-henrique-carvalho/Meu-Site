@@ -2,6 +2,7 @@ import React from "react";
 import Projeto from "../../assets/projeto.png";
 import Projeto2 from "../../assets/projeto2.jpg";
 import Projeto3 from "../../assets/projeto3.jpg";
+import Projeto4 from "../../assets/projeto4.png";
 
 import "./portifolio.css";
 
@@ -11,19 +12,19 @@ const Portifolio = () => {
       id: 1,
       image: Projeto,
       title: "Cust",
-      small: 'Desenvolvimento de web',
+      small: 'Desenvolvimento web',
       github: "https://github.com/luis-henrique-carvalho/Cust",
       demo: "https://github.com/luis-henrique-carvalho/Cust",
-      button: 'Github'
+      button: 'GitHub'
     },
     {
       id: 2,
       image: Projeto2,
       title: "Página de Login",
-      small: 'Desenvolvimento de web',
+      small: 'Desenvolvimento web',
       github: "https://github.com/luis-henrique-carvalho/Login-page-in-react",
       demo: "https://github.com/luis-henrique-carvalho/Login-page-in-react",
-      button: 'Github'
+      button: 'GitHub'
     },
 
     {
@@ -34,6 +35,16 @@ const Portifolio = () => {
       github: "https://www.behance.net/gallery/135456645/SOCIAL-MEDIA-SELARIA",
       demo: "https://www.behance.net/gallery/135456645/SOCIAL-MEDIA-SELARIA",
       button: 'Behance'
+    },
+
+    {
+      id: 4,
+      image: Projeto4,
+      title: "Página de Login Responsiva",
+      small: 'Desenvolvimento web',
+      github: "https://github.com/luis-henrique-carvalho/TELA-DE-LOGIN-COM-TEMA-DARK---HTML---CSS",
+      demo: "https://github.com/luis-henrique-carvalho/TELA-DE-LOGIN-COM-TEMA-DARK---HTML---CSS",
+      button: 'GitHub'
     },
   ];
   return (
