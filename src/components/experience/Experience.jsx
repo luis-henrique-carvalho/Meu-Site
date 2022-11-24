@@ -44,7 +44,28 @@ const Experience = () => {
               <BsPatchCheckFill />
               <div>
                 <h4>BOOTSTRAP</h4>
-                <small className="text-light">Estudando</small>
+                <small className="text-light">Experiente</small>
+              </div>
+            </article>
+            <article className="experience__detailes">
+              <BsPatchCheckFill />
+              <div>
+                <h4>TAILWIND CSS</h4>
+                <small className="text-light">Experiente</small>
+              </div>
+            </article>
+            <article className="experience__detailes">
+              <BsPatchCheckFill />
+              <div>
+                <h4>API</h4>
+                <small className="text-light">Experiente</small>
+              </div>
+            </article>
+            <article className="experience__detailes">
+              <BsPatchCheckFill />
+              <div>
+                <h4>GIT E GIT HUB</h4>
+                <small className="text-light">Experiente</small>
               </div>
             </article>
           </div>

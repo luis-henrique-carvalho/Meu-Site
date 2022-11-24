@@ -6,11 +6,19 @@ import { GrInstagram } from "react-icons/gr";
 const HeaderSocial = () => {
   return (
     <div className="header__socials">
-      <a href="https://www.linkedin.com/in/luis-henrique-072244213/" target="_blank" rel="noreferrer">
+      <a
+        href="https://www.linkedin.com/in/luis-henrique-072244213/"
+        target="_blank"
+        rel="noreferrer"
+      >
         <BsLinkedin />
       </a>
 
-      <a href="https://github.com/luis-henrique-carvalho" target="_blank" rel="noreferrer">
+      <a
+        href="https://github.com/luis-henrique-carvalho"
+        target="_blank"
+        rel="noreferrer"
+      >
         <BsGithub />
       </a>
 
@@ -22,7 +30,9 @@ const HeaderSocial = () => {
         <GrInstagram />
       </a>
 
-      <a href="mailto:luisdev9225@gmail.com" className="email"><MdOutlineEmail/></a>
+      <a href="mailto:luisdev9225@gmail.com" className="email">
+        <MdOutlineEmail />
+      </a>
     </div>
   );
 };

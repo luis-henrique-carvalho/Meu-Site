@@ -14,7 +14,7 @@ const Header = () => {
           <img  src={Logo} alt="" />
         </div>
         
-        <h5 className='text-light'>Desenvolvedor Front-end</h5>
+        <h5 className=''>Desenvolvedor Front-end</h5>
         <CTA/>
         <HeaderSocial />
 

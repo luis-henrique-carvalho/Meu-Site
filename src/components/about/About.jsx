@@ -31,7 +31,7 @@ const about = () => {
             <article className="about__card">
               <BiCodeBlock className="about__icon" />
               <h5>Tecnologias</h5>
-              <small>HTML, CSS, JAVASCRIPT, REACT, Bootstrap, Git</small>
+              <small>HTML, CSS, JAVASCRIPT, REACT.JS, BOOTSTRAP, TAILWIND CSS, API, GIT e GIT HUB</small>
             </article>
 
             <article className="about__card">

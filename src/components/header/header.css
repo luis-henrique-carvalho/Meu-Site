@@ -1,7 +1,8 @@
 header {
   padding-top: 7em;
   height: 100vh;
-  overflow: hidden;
+  overflow-y: scroll;
+  
 }
 
 .header__container {
@@ -9,9 +10,11 @@ header {
   height: 100%;
   position: relative;
 }
-.header__container h5 {
-  color: var(--color-bg-variante);
+h5 {
+  color: var(--color-primary);
+  font-size: 1rem;
 }
+
 .header__socials {
   display: flex;
   flex-direction: column;
@@ -22,15 +25,16 @@ header {
   bottom: 3rem;
 }
 
-/* .header__socials::after {
-  content: "";
-  width: 1px;
-  height: 2rem;
-  background: var(--color-primary);
-} */
-
-.email {
+.header__socials a {
   font-size: 1.3rem;
+}
+
+svg{
+  font-size: 1.5rem;
+}
+
+.email svg{
+  font-size: 1.7rem;
 }
 
 .logo {
@@ -52,7 +56,6 @@ header {
   /*centraliza com 50 - a metade da largura*/
   left: calc(50% - 13rem);
   margin-top: 3rem;
-  
   padding: 2rem 1.5rem 1.5rem 1.5rem;
 }
 
@@ -70,6 +73,7 @@ a.scroll__down {
   color: var(--color-bg);
   border: 1px solid transparent;
   border-radius: 0.5rem;
+  text-decoration: none;
 }
 
 a.scroll__down:hover {
@@ -91,9 +95,12 @@ a.scroll__down:hover {
     height: 100vh;
   }
 
+ 
   .header__socials,
   .scroll__down,
   a.scroll__down {
     display: none;
   }
 }
+
+

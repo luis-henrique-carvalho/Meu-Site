@@ -3,6 +3,7 @@ import Projeto from "../../assets/projeto.png";
 import Projeto2 from "../../assets/projeto2.jpg";
 import Projeto3 from "../../assets/projeto3.jpg";
 import Projeto4 from "../../assets/projeto4.png";
+import Projeto5 from "../../assets/projeto5.png";
 
 import "./portifolio.css";
 
@@ -12,39 +13,50 @@ const Portifolio = () => {
       id: 1,
       image: Projeto,
       title: "Cust",
-      small: 'Desenvolvimento web',
+      small: "Desenvolvimento web",
       github: "https://github.com/luis-henrique-carvalho/Cust",
       demo: "https://github.com/luis-henrique-carvalho/Cust",
-      button: 'GitHub'
+      button: "GitHub",
     },
     {
       id: 2,
       image: Projeto2,
       title: "Página de Login",
-      small: 'Desenvolvimento web',
+      small: "Desenvolvimento web",
       github: "https://github.com/luis-henrique-carvalho/Login-page-in-react",
       demo: "https://github.com/luis-henrique-carvalho/Login-page-in-react",
-      button: 'GitHub'
+      button: "GitHub",
     },
 
     {
       id: 3,
       image: Projeto3,
       title: "Social Média Selaria",
-      small: 'Designe Social Media',
+      small: "Designe Social Media",
       github: "https://www.behance.net/gallery/135456645/SOCIAL-MEDIA-SELARIA",
       demo: "https://www.behance.net/gallery/135456645/SOCIAL-MEDIA-SELARIA",
-      button: 'Behance'
+      button: "Behance",
     },
 
     {
       id: 4,
       image: Projeto4,
       title: "Página de Login Responsiva",
-      small: 'Desenvolvimento web',
-      github: "https://github.com/luis-henrique-carvalho/TELA-DE-LOGIN-COM-TEMA-DARK---HTML---CSS",
+      small: "Desenvolvimento web",
+      github:
+        "https://github.com/luis-henrique-carvalho/TELA-DE-LOGIN-COM-TEMA-DARK---HTML---CSS",
       demo: "https://tela-de-login-com-tema-dark-html-css-hynr.vercel.app/",
-      button: 'GitHub'
+      button: "GitHub",
+    },
+    {
+      id: 5,
+      image: Projeto5,
+      title: "GYM-MAP",
+      small: "Desenvolvimento web",
+      github:
+        "https://github.com/luis-henrique-carvalho/Gym-map",
+      demo: "https://github.com/luis-henrique-carvalho/Gym-map",
+      button: "GitHub",
     },
   ];
   return (
@@ -53,7 +65,7 @@ const Portifolio = () => {
       <h2>Portifólio</h2>
 
       <div className="container portfolio__container">
-        {data.map(({ id, image, title,small, github, demo, button }) => {
+        {data.map(({ id, image, title, small, github, demo, button }) => {
           return (
             <article key={id} className="portfolio__item">
               <div className="portfolio__item-image">
