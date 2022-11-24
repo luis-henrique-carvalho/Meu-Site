@@ -4,6 +4,7 @@ import Projeto2 from "../../assets/projeto2.jpg";
 import Projeto3 from "../../assets/projeto3.jpg";
 import Projeto4 from "../../assets/projeto4.png";
 import Projeto5 from "../../assets/projeto5.png";
+import Projeto6 from "../../assets/projeto6.png";
 
 import "./portifolio.css";
 
@@ -23,8 +24,8 @@ const Portifolio = () => {
       image: Projeto2,
       title: "Página de Login",
       small: "Desenvolvimento web",
-      github: "https://github.com/luis-henrique-carvalho/Login-page-in-react",
-      demo: "https://github.com/luis-henrique-carvalho/Login-page-in-react",
+      github: "https://github.com/luis-henrique-carvalho/Meu-Site",
+      demo: "https://meu-site-flax.vercel.app/",
       button: "GitHub",
     },
 
@@ -55,7 +56,17 @@ const Portifolio = () => {
       small: "Desenvolvimento web",
       github:
         "https://github.com/luis-henrique-carvalho/Gym-map",
-      demo: "https://github.com/luis-henrique-carvalho/Gym-map",
+      demo: "https://gym-map.vercel.app/",
+      button: "GitHub",
+    },
+    {
+      id: 6,
+      image: Projeto6,
+      title: "Meu Site",
+      small: "Desenvolvimento web",
+      github:
+        "https://github.com/luis-henrique-carvalho/Meu-Site",
+      demo: "https://meu-site-flax.vercel.app/",
       button: "GitHub",
     },
   ];
