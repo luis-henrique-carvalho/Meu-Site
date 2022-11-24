@@ -1,5 +1,5 @@
 import React from "react";
-import Foto from "../../assets/foto3.jpg";
+import Foto from "../../assets/fotoperfil.jpg";
 import { FaAward } from "react-icons/fa";
 
 import { BiCodeBlock } from "react-icons/bi";
