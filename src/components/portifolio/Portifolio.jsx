@@ -5,6 +5,7 @@ import Projeto3 from "../../assets/projeto3.jpg";
 import Projeto4 from "../../assets/projeto4.png";
 import Projeto5 from "../../assets/projeto5.png";
 import Projeto6 from "../../assets/projeto6.png";
+import Projeto7 from "../../assets/projeto7.png";
 
 import "./portifolio.css";
 
@@ -24,8 +25,8 @@ const Portifolio = () => {
       image: Projeto2,
       title: "Página de Login",
       small: "Desenvolvimento web",
-      github: "https://github.com/luis-henrique-carvalho/Meu-Site",
-      demo: "https://meu-site-flax.vercel.app/",
+      github: "https://github.com/luis-henrique-carvalho/Login-page-in-react",
+      demo: "https://github.com/luis-henrique-carvalho/Login-page-in-react",
       button: "GitHub",
     },
 
@@ -46,7 +47,7 @@ const Portifolio = () => {
       small: "Desenvolvimento web",
       github:
         "https://github.com/luis-henrique-carvalho/TELA-DE-LOGIN-COM-TEMA-DARK---HTML---CSS",
-      demo: "https://tela-de-login-com-tema-dark-html-css-hynr.vercel.app/",
+      demo: "https://tela-de-login-dark1616.vercel.app/",
       button: "GitHub",
     },
     {
@@ -54,8 +55,7 @@ const Portifolio = () => {
       image: Projeto5,
       title: "GYM-MAP",
       small: "Desenvolvimento web",
-      github:
-        "https://github.com/luis-henrique-carvalho/Gym-map",
+      github: "https://github.com/luis-henrique-carvalho/Gym-map",
       demo: "https://gym-map.vercel.app/",
       button: "GitHub",
     },
@@ -64,9 +64,17 @@ const Portifolio = () => {
       image: Projeto6,
       title: "Meu Site",
       small: "Desenvolvimento web",
-      github:
-        "https://github.com/luis-henrique-carvalho/Meu-Site",
+      github: "https://github.com/luis-henrique-carvalho/Meu-Site",
       demo: "https://meu-site-flax.vercel.app/",
+      button: "GitHub",
+    },
+    {
+      id: 7,
+      image: Projeto7,
+      title: "CineDev",
+      small: "Desenvolvimento web",
+      github: "https://github.com/luis-henrique-carvalho/CineDev",
+      demo: "https://cine-dev-mauve.vercel.app/",
       button: "GitHub",
     },
   ];
