@@ -91,10 +91,10 @@ const Portifolio = () => {
     {
       id: 9,
       image: Projeto9,
-      title: "Toughts",
+      title: "Luis Blog",
       small: "Projeto full-stack com Firebase",
-      github: "https://github.com/luis-henrique-carvalho/Toughts",
-      demo: "https://github.com/luis-henrique-carvalho/Toughts",
+      github: "https://github.com/luis-henrique-carvalho/Blog",
+      demo: "https://luis-blog.vercel.app/",
       button: "GitHub",
     },
   ];
