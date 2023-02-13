@@ -6,6 +6,8 @@ import Projeto4 from "../../assets/projeto4.png";
 import Projeto5 from "../../assets/projeto5.png";
 import Projeto6 from "../../assets/projeto6.png";
 import Projeto7 from "../../assets/projeto7.png";
+import Projeto8 from "../../assets/projeto8.png";
+import Projeto9 from "../../assets/projeto9.png";
 
 import "./portifolio.css";
 
@@ -77,6 +79,24 @@ const Portifolio = () => {
       demo: "https://cine-dev-mauve.vercel.app/",
       button: "GitHub",
     },
+    {
+      id: 8,
+      image: Projeto8,
+      title: "Toughts",
+      small: "Projeto back-end com MySQL",
+      github: "https://github.com/luis-henrique-carvalho/Toughts",
+      demo: "https://github.com/luis-henrique-carvalho/Toughts",
+      button: "GitHub",
+    },
+    {
+      id: 9,
+      image: Projeto9,
+      title: "Toughts",
+      small: "Projeto full-stack com Firebase",
+      github: "https://github.com/luis-henrique-carvalho/Toughts",
+      demo: "https://github.com/luis-henrique-carvalho/Toughts",
+      button: "GitHub",
+    },
   ];
   return (
     <section id="portifolio">
@@ -107,7 +127,7 @@ const Portifolio = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Live demo
+                  Ver Demo
                 </a>
               </div>
             </article>
