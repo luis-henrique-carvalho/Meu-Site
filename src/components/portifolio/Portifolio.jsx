@@ -8,6 +8,7 @@ import Projeto6 from "../../assets/projeto6.png";
 import Projeto7 from "../../assets/projeto7.png";
 import Projeto8 from "../../assets/projeto8.png";
 import Projeto9 from "../../assets/projeto9.png";
+import Projeto10 from "../../assets/projeto10.png";
 
 import "./portifolio.css";
 
@@ -97,6 +98,15 @@ const Portifolio = () => {
       demo: "https://luis-blog.vercel.app/",
       button: "GitHub",
     },
+    {
+      id: 10,
+      image: Projeto10,
+      title: "Anime Dev",
+      small: "Desenvolvimento web",
+      github: "https://github.com/luis-henrique-carvalho/AnimeDev",
+      demo: "https://anime-dev.vercel.app/",
+      button: "GitHub",
+    },
   ];
   return (
     <section id="portifolio">
@@ -117,16 +127,14 @@ const Portifolio = () => {
                   href={github}
                   className="btn"
                   target="_blank"
-                  rel="noreferrer"
-                >
+                  rel="noreferrer">
                   {button}
                 </a>
                 <a
                   href={demo}
                   className="btn btn-primary"
                   target="_blank"
-                  rel="noreferrer"
-                >
+                  rel="noreferrer">
                   Ver Demo
                 </a>
               </div>
